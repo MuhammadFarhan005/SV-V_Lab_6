@@ -16,7 +16,3 @@
 | **C10** | The system must not allow road traffic to pass when a train is occupying the crossing. | Prevents collisions between road vehicles and trains. |
 | **C11** | An emergency condition must cause the system to activate the required safety response. | Ensures dangerous situations are handled immediately. |
 | **C12** | Conflicting or incorrect sensor readings must not cause the barrier to open. | Prevents unreliable sensor information from creating an unsafe condition. |
-
-
-
-Train_Present → ¬Barrier_Open
