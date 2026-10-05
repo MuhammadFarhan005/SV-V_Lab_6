@@ -15,8 +15,6 @@ Barrier_Open = TRUE
 
 A train is present at the crossing, but the barrier is open. This violates C1 because the barrier must not open while a train is present.
 
----
-
 ## Violation 2 — C2
 
 ### Constraint
@@ -49,8 +47,6 @@ Warning_Light = FALSE
 
 A train is approaching, but the warning lights are OFF. This violates C3 because the warning lights must be ON whenever a train is approaching or present.
 
----
-
 ## Violation 4 — C4
 
 ### Constraint
@@ -64,8 +60,6 @@ Alarm = FALSE
 ### Explanation
 
 A train is present at the crossing, but the audible alarm is OFF. This violates C4 because the alarm must be active while the crossing is unsafe.
-
----
 
 ## Violation 5 — C5
 
@@ -82,8 +76,6 @@ Clearance_Confirmed = FALSE
 
 The barrier has opened even though the system has not confirmed that the train has completely cleared the crossing. This violates C5 because the barrier can only open after clearance has been confirmed.
 
----
-
 ## Violation 6 — C6
 
 ### Constraint
@@ -98,8 +90,6 @@ Barrier_Open = TRUE
 ### Explanation
 
 Train clearance has not been confirmed, but the barrier is open. This violates C6 because the barrier must remain closed until clearance is confirmed.
-
----
 
 ## Violation 7 — C7
 
@@ -116,8 +106,6 @@ Barrier_Open = TRUE
 
 A safety sensor has failed, but the system has opened the barrier. This violates C7 because the barrier must not open when a safety sensor has failed.
 
----
-
 ## Violation 8 — C8
 
 ### Constraint
@@ -133,7 +121,3 @@ Alarm = FALSE
 ### Explanation
 
 The barrier has failed, but the warning light and audible alarm are both OFF. This violates C8 because emergency warnings must be activated when the barrier fails.
-
----
-```
-```
