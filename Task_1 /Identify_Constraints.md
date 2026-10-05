@@ -1,6 +1,6 @@
 # Automated Railway Level-Crossing Control System (ARLCCS)
 
-## Task 1 — Identify Constraints
+## Task 1 Identify Constraints
 
 | Constraint ID | Constraint in Simple English | Why the Constraint is Necessary |
 |---|---|---|
